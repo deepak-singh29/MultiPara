@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.heartbeat.HomeScreen">
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:clickable="true"
+        android:onClick="textClick_Help"
+        android:text="@string/help"
+        android:textColor="#FF4400" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/help"
+        android:layout_alignBottom="@+id/help"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="@string/credits"
+        android:clickable="true"
+        android:onClick="textClick_Credits"
+        android:textColor="#FF0000" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="32dp"
+        android:onClick="buttonClick_Temperature"
+        android:src="@drawable/ic_launcher_temperature"
+        android:background="@drawable/button_custom"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/help"
+        android:layout_alignBottom="@+id/help"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_marginLeft="46dp"
+        android:clickable="true"
+        android:onClick="options"
+        android:text="@string/options"
+        android:textColor="#FF0000" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/help"
+        android:layout_alignTop="@+id/imageButton4"
+        android:background="@drawable/button_custom"
+        android:onClick="buttonClick_Nibp"
+        android:src="@drawable/ic_launcher_bp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_custom"
+        android:onClick="buttonClick_Spo2"
+        android:src="@drawable/ic_launcher_spo2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/imageButton1"
+        android:background="@drawable/button_custom"
+        android:onClick="buttonClick_Ecg"
+        android:src="@drawable/ic_launcher_ecg" />
+   
+    </RelativeLayout>
+
+

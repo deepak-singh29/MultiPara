@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	
+        <ImageView
+        	   android:id="@+id/logo"
+        	   android:layout_width="match_parent"
+           	   android:layout_height="400dp"
+        	   android:layout_weight="4.2"
+               android:src="@drawable/heartbeat_halb" />
+
+
+            <Button
+                android:id="@+id/bt_en"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/button_custom"
+                android:onClick="select_english"
+                android:text="@string/english" />
+
+            <Button
+                android:id="@+id/bt_hi"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:background="@drawable/button_custom"
+                android:onClick="select_hindi"
+                android:text="@string/hindi" />
+
+</LinearLayout>

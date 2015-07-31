@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+D:\dee\ECG Android\android\HeartBeat4.4.3\HeartBeat4.4.1\HeartBeat\.metadata\.plugins\org.eclipse.jdt.core
+2383796826.index
+4161103913.index

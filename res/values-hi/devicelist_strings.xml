@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_paired_devices">युग्मित उपकरण</string>
+    <string name="title_other_devices">अन्य उपकरण</string>
+    <string name="title_new_devices">नया उपकरण</string>
+    <string name="button_scan">खोज</string>
+    <string name="none_paired">कोई नहीं युग्मित</string>
+    <string name="scanning">खोज जारी</string>
+    <string name="select_device">उपकरण चयन</string>
+    <string name="none_found">कोई उपकरण नहीं मिला</string>
+    
+</resources>

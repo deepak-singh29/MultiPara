@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">मल्टीपैरा </string>
+    <string name="menu_settings">सेटिंग</string>
+    <string name="title_activity_main">मल्टीपैरा मॉनिटर</string>
+    <string name="title_screen_main">मल्टीपैरा सूची </string>
+    <string name="connect">कनेक्ट</string>
+    <string name="options">विकल्प</string>
+    <string name="help">गाइड</string>
+    <string name="credits">आभार</string>
+    <string name="bt_not_available">ब्लूटूथ उपलब्ध नहीं है</string>
+    <string name="connected">कनेक्टेड</string>
+    <string name="not_connected">कनेक्टेड नहीं</string>
+    <string name="connecting">कनेक्ट हो रहा है</string>
+    <string name="bt_not_enabled">ब्लूटूथ सक्षम नहीं</string>
+    <string name="connect_to_ecg">ECG से कनेक्ट हुआ</string>
+    <string name="english">English</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="language">भाषा</string>
+    <string name="profiles">प्रोफाइल</string>
+    <string name="alarm">अलार्म</string>
+    <string name="title_options">विकल्प</string>
+    <string name="title_credits">आभार</string>
+    <string name="title_language">भाषा चुनें</string>
+    <string name="title_activity_help">मदद</string>
+    <string name="credits_text">प्रोजैक्ट टीम\n\n <b>प्रोजैक्ट मार्गदर्शक:\n\n</b>   
+डॉ उत्तम माधवराव चासकर\n\n
+उपकरण और नियंत्रण विभाग\n
+इंजीनियरिंग महाविद्यालय पुणे\n\n\n <b>हार्डवेयर समर्थन:</b>\n\n
+हर्षल दलाल\n
+प्रशिता चौहान\n
+मलय सोनी\n
+विशाल कुंभकर्ण\n
+हार्दिक परमार\n
+बोधिसत्य सरकार\n\n <b>सॉफ्टवेयर समर्थन:</b>\n\n
+दीपक कुमार सिंह\n</string>
+    <string name="title_activity_txt_writer">--</string>
+    <string name="bt_txt">--</string>
+    <string name="fwd_speed">अग्र गति: </string>
+    <string name="heart_rate_fatal"> cm/s   Heart Rate: FATAL!!!</string>
+    <string name="heart_rate"> सेमी/से   हृदय गति: </string>
+    <string name="menu_visualization_record">रेकार्ड</string>
+    <string name="menu_visualization_record_stop">रेकार्ड रोके</string>
+    <string name="autoconnect_on">ऑटो कनेक्ट सक्षम</string>
+    <string name="autoconnect_off">ऑटो कनेक्ट अक्षम</string>
+    <string name="connected_to">जुड़ा</string>
+    <string name="unable_connect">मल्टीपैरा यंत्र से संबंध स्थापित करने में असमर्थ</string>
+    <string name="connection_lost">मल्टी पैरा डिवाइस से कनेक्शन टूट गया</string>
+    <string name="toast_record_start">रिकॉर्डिंग शुरू</string>
+    <string name="toast_record_stop">रिकॉर्डिंग बन्द</string>
+    <string name="toast_record_file_error">रिकॉर्डिंग के लिए फ़ाइल को खोल नहीं सका!</string>
+    <string name="toast_record_close_file_error">रिकॉर्ड फाइल बंद नहीं किया जा सकता है!</string>
+    <string name="menu_visualization_print">प्रिंट</string>
+    <string name="title_activity_home_screen">होम स्क्रीन</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="ecg_help_text"><b>ECG गाइड</b>\n\n
+        This device comes along with four ECG sensors namely Ag/AgCl electrodes. 
+        Connect these four electrodes to the probe and gently stick them on to your limbs, 
+        placements are shown above. On the front panel,\n press the “Start” button once to turn the ECG on.\n
+        \n\nDo not carry any activity after placing electrodes, just sit relax and observe your ECG.\n\n </string>
+    <string name="spo2_help_text"><b>SPO2 Guide</b>\n\nOpen the clamp of the Pulse Oximeter PO3, then place your middle, 
+        ring or index finger of your left hand into the opening of the oximeter with nail side down, 
+        as pictured.\n On the front panel, press the “Start” button once to turn the oximeter on.\n</string>
+    <string name="bp_help_text"><b>NIBP Guide</b>\n\n
+        The patient should sit or lie comfortably. The arm should be fully supported on a flat surface at heart level.
+         When seated, the patient should have their back and arm supported, and their legs should not be crossed. \n
+         The patient should relax prior to measurement comfortably for five (5) minutes, 
+         and should refrain from talking or moving during measurement.\n\n
+         The bottom edge of the cuff should be positioned approximately one inch (2-3cm) above the antecubital fold.
+          Wrap the end of the cuff not containing the bladder around the arm snugly, and smoothly and engage adhesive strips.
+           To verify a correct fit, check that the Index Line falls between the two Range Lines.</string>
+    <string name="temperature_help_text"><b>Temperature Guide</b>\n\n
+        Place the sensor at optimum position i.e. 2 cm at 15 degree from the body. 
+        Accuracy of our basal body thermometer is 0.1 degree at optimum position, 
+        it will vary with the distance of the probe. The distance may vary the accuracy as large as 0.5 degree.\n\n </string>
+    <string name="title_activity_ecg_start">ECG</string>
+    <string name="title_activity_spo2_start">SPO2</string>
+    <string name="title_activity_nibp">NIBP</string>
+    <string name="title_activity_temperature">तापमान</string>
+    <string name="start">प्रारंभ</string>
+    <string name="abort">रोके</string>
+    <string name="cuff_pressure">कफ \nदाब  </string>
+    <string name="systolic_pressure">सिस्टोलिक \nदाब  </string>
+    <string name="diastolic_pressure">आकुंचन \nदाब  </string>
+    <string name="menu_visualization_screenshot">स्क्रीनशॉट</string>
+    <string name="temperature">तापमान</string>
+    <string name="oxygen_saturation">ऑक्सीजन \n संतृप्ति</string>
+    <string name="cuff_pressure_hint">कफ दबाव</string>
+    <string name="systolic_pressure_hint">सिस्टोलिक दबाव</string>
+    <string name="diatolic_pressure_hint">आकुंचन दाब</string>
+    <string name="email">ई-मेल</string>
+    <!--
+     <string name = "spo2">Spo2</string>
+     <string name = "nibp">NIBP</string>
+     <string name = "temp">Temparature</string>
+    -->
+    <string name="header">ईमेल भेजने के लिए खाली जगहो को पूर्ण करें</string>
+    <string name="recipient">प्राप्तकर्ता</string>
+    <string name="subject">विषय</string>
+    <string name="message_body">संदेश का मुख्यभाग</string>
+    <string name="compose">रचना करे</string>
+    <string name="title_activity_mail">मेल</string>
+
+</resources>
